@@ -1,4 +1,9 @@
 # Simple-Calculator
-Simple Calculator built using HTML, CSS and JavaScript.
 
-First web project .... xD
+Simple Calculator :<br/>
+* HTML
+* CSS
+* Javascript
+
+
+First web project...😂😂😂
