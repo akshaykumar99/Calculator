@@ -1,0 +1,49 @@
+html {
+    min-height: 100%;
+    margin: 0;
+}
+body{
+    margin : 0;
+    height: 100%;
+    width : 100%;
+    background : linear-gradient(140deg, rgb(127, 250, 127) 20%, rgb(64, 155, 52) 90%);
+}
+table{
+    margin-top: 150px;
+    border-radius: 10px;
+    background-color: rgb(6, 46, 1);
+}
+th{
+    background-color:rgb(164, 252, 164);
+    height: 45px;
+    border-radius: 10px;
+    width: 40px;
+    text-align: right;
+    font-weight: 1000;
+    color : rgb(8, 28, 83);
+    font-size : 20px;
+    letter-spacing: 1px;
+}
+td{
+    height: 20px;
+    width: 30px;
+    background-color:rgb(164, 252, 164);
+    border-radius: 10px;
+    text-align: center;
+    font-weight: 1000;
+    font-size : 20px;
+    color :  rgb(6, 46, 1);
+}
+th:hover{
+    cursor:text;
+}
+td:hover{
+    cursor: pointer;
+    background-color:rgb(129, 172, 123);
+}
+td:active{
+    background-color: rgb(73, 112, 73);
+}
+.diff{
+    color : rgb(175, 33, 33);
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src = 'start.js'></script>
+        <link href = 'start.css' rel = 'stylesheet'>
+        <title>Calculator</title>
+    </head>
+    <body>
+        <table border = "1" align='center' cellpadding = '20' cellspacing = '10'>
+            <tr>
+                <th id = 'screen' colspan="4"></th>
+            </tr>
+            <tr>
+                <td class = 'diff' onclick="clearscreen()">C</td>
+                <td class = 'diff' onclick="dellast()">Del</td>
+                <td class = 'diff' onclick = 'getnum("%")'>%</td>
+                <td class = 'diff' onclick = 'getnum("/")'>/</td>
+            </tr>
+            <tr>
+                <td onclick = 'getnum("7")'>7</td>
+                <td onclick = 'getnum("8")'>8</td>
+                <td onclick = 'getnum("9")'>9</td>
+                <td class = 'diff' onclick = 'getnum("*")'>*</td>
+            </tr>
+            <tr>
+                <td onclick = 'getnum("4")'>4</td>
+                <td onclick = 'getnum("5")'>5</td>
+                <td onclick = 'getnum("6")'>6</td>
+                <td class = 'diff' onclick = 'getnum("-")'>-</td>
+            </tr>
+            <tr>
+                <td onclick = 'getnum("1")'>1</td>
+                <td onclick = 'getnum("2")'>2</td>
+                <td onclick = 'getnum("3")'>3</td>
+                <td class = 'diff' onclick = 'getnum("+")'>+</td>
+            </tr>
+            <tr>
+                <td class = 'diff' onclick = 'findsqrt()'>sqrt</td>
+                <td onclick = 'getnum("0")'>0</td>
+                <td onclick = 'getnum(".")'>.</td>
+                <td class = 'diff' onclick = 'findnum()'>=</td>
+            </tr>
+        </table>
+    </body>
+</html>
