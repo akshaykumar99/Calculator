@@ -3,7 +3,7 @@
 Simple Calculator using:<br/>
 * HTML
 * CSS
-* Javascript
+* JavaScript
 
 
 First web project...😂😂😂
