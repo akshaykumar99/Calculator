@@ -1,6 +1,6 @@
-# Simple-Calculator
+# Calculator
 
-Simple Calculator :<br/>
+Simple Calculator using:<br/>
 * HTML
 * CSS
 * Javascript
