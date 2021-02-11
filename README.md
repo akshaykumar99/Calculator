@@ -6,4 +6,4 @@ Simple Calculator using:<br/>
 * JavaScript
 
 
-First web project...😂😂😂
+First web project...
